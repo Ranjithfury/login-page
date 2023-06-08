@@ -5,25 +5,25 @@
   
 .left-section {
   background-color: #00ACF6;
-  flex: 6; 
+  flex: 5.5; 
   position: relative;
   display: flex;
   }
   
 .right-section {
-    flex: 4; 
+    flex: 4.5; 
     background-color: #FFFFFF;
   }
 .container {
     position: absolute;
     top: 0;
     width: 100%;
-    height:60% ;
+    height:65% ;
   }
 .new-div {
     position: absolute;
     width: 100%;
-    height:40% ;
+    height:35% ;
     bottom: 0;
     background: #00002B;
   }
@@ -45,7 +45,7 @@
 }
 .img1 {
   width: 100%; 
-  max-width: 89%;
+  max-width: 80%;
   height: auto; 
   /* max-height: 85%;  */
   height: auto; 
