@@ -1,8 +1,8 @@
 
-import Signup from '../src/components/login';
+import LoginPage from '../src/components/login.js';
 
 function App() {
   return (
-    <Signup/>
+    <LoginPage/>
   );}
 export default App;

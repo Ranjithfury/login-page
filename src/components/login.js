@@ -45,8 +45,8 @@ const LoginPage = () => {
         </form>
         <h3 className="text4">OR</h3>
         <div className="form-Container">
-            <button onClick={handleGoogleLogin} className="btn2"><img src={Google} className="logo"></img>Login with Google</button>
-            <button onClick={handleAppleLogin} className="btn2"><img src={apple} className="logo"></img>Login with Apple ID</button>
+            <button onClick={handleGoogleLogin} className="btn2"><img src={Google} className="logo" alt=""></img>Login with Google</button>
+            <button onClick={handleAppleLogin} className="btn2"><img src={apple} className="logo" alt=""></img>Login with Apple ID</button>
             <p className="text4">Don't have an account? <a href ="/" className="anchor">Signup</a></p>
         </div>
         <p className="text5">2023 Copyrights. All Rights Reserved</p>
