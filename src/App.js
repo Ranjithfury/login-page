@@ -1,8 +1,8 @@
 
+import Signup from '../src/components/login';
+
 function App() {
   return (
-    null
-  );
-}
-
+    <Signup/>
+  );}
 export default App;

@@ -1,8 +1,10 @@
 import React from 'react';
 import '../css/LoginPage.css';
-import login from '../img/log.png';
+import login from '../img/login.png';
 import logo from '../img/logo.png';
-
+import frame from '../img/Frame 124.png';
+import Google from '../img/Frame.png';
+import apple from '../img/Vector.png';
 const LoginPage = () => {
         const handleLogin = (e) => {
           e.preventDefault();
@@ -20,7 +22,8 @@ const LoginPage = () => {
     <div className="login-page">
         <div className="left-section">
             <div className="container">
-                <img className='img1' src={login} alt="" />
+                <img className='img1' src={login} alt="Loding" />
+                <img className='img3' src={frame} alt="No.of patents"></img> 
             </div>
             <div className="new-div">
                 <img className="img2" src={logo} alt="logo" />
@@ -29,23 +32,24 @@ const LoginPage = () => {
             </div>
         </div>
         <div className="right-section">
-            <h1 className="text3">Login in your Account</h1>
+            <h1 className="text3">Login your Account</h1>
         <form onSubmit={handleLogin}>
             <div className="form-Container">
                 <input className="lbl" type="email" name="email" required placeholder="Email"/>
                 <br></br>
             <   input className="lbl" type="password" name="password" required placeholder="Password"/>
-                <a href='/' className="anchor">Forgot password?</a>
+                <a href='/' className="anchor1">Forgot password?</a>
                 <button type="submit" className="btn">Login</button>
             </div>
             
         </form>
         <h3 className="text4">OR</h3>
         <div className="form-Container">
-            <button onClick={handleGoogleLogin} className="btn2">Login with Google</button>
-            <button onClick={handleAppleLogin} className="btn2">Login with Apple ID</button>
-            <p className="text4">Don't have an account? <a href ="/">Signup</a></p>
+            <button onClick={handleGoogleLogin} className="btn2"><img src={Google} className="logo"></img>Login with Google</button>
+            <button onClick={handleAppleLogin} className="btn2"><img src={apple} className="logo"></img>Login with Apple ID</button>
+            <p className="text4">Don't have an account? <a href ="/" className="anchor">Signup</a></p>
         </div>
+        <p className="text5">2023 Copyrights. All Rights Reserved</p>
         </div>
     </div>
   );

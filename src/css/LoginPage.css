@@ -5,14 +5,15 @@
   
 .left-section {
   background-color: #00ACF6;
-  flex: 5.5; 
+  flex: 1; 
   position: relative;
   display: flex;
   }
   
 .right-section {
-    flex: 4.5; 
+    flex: 1; 
     background-color: #FFFFFF;
+    position: relative;
   }
 .container {
     position: absolute;
@@ -34,13 +35,14 @@
   font-size: 40px;
   letter-spacing: 0px;
   color: #FFFFFF;
-  padding-left: 40px;
+  padding-left: 6%;
   font-weight: 250;
+  line-height: 43px;
  }
 .text2{
   text-align:left;
   color: #FFFFFF;
-  padding-left: 40px;
+  padding-left: 6%;
   font-weight: 100;
 }
 .text3{
@@ -51,14 +53,24 @@
   font-size: 50px; */
   font-weight: 650;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 50px;
 }
 .text4{
   text-align: center;
 }
+.text5{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #676B5F;
+  line-height: 18px;
+}
 .img1 {
-  width: 80%; 
-  max-width: 65%;
+  width: 100%; 
+  max-width: 80%;
   height: auto; 
   position: absolute;
   right: 0;
@@ -69,9 +81,19 @@
 }
 .img2{
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 6%;
 }
 
+.img3 {
+  position: absolute;
+  top: 26%;
+  left: 9%;
+}
+.logo{
+  max-width: 50%;
+  height: auto;
+  padding-right: 10px;
+}
 .lbl
 {
   width: 400px;
@@ -105,7 +127,14 @@ input::placeholder {
   margin-top: 5px;
 }
 .anchor{
+  color:#1678FB;
+
+}
+
+.anchor1{
   text-align: center;
+  padding-right: 260px;
+  color:#1678FB;
 }
 
 .btn2{
@@ -116,4 +145,8 @@ input::placeholder {
   height: 50px;
   margin-bottom: 20px;
   background-color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
